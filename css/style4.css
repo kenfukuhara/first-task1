@@ -1,0 +1,306 @@
+.pseudo-element::before{
+  content: '「';
+}
+.pseudo-element::after {
+  content: '」';
+}
+
+.pseudo-element2::first-letter {
+  color: red;
+}
+
+.color-code {
+  color: #ff0000;
+}
+
+.color-name {
+  color: red;
+}
+
+.color-rgb {
+  color: rgb(255, 0, 0);
+}
+
+.color-hsl {
+  color: hsl(0,100%,50%);
+}
+
+.color-hsla {
+  color: hsla(0,100%,50%,1);
+}
+
+.color-raba-transparent {
+  color: rgba(255,0,0,0);
+}
+
+.color-hsla-transparent {
+  color: hsla(0,100%,50%,0);
+}
+
+.color-name-transparent {
+  color: transparent;
+}
+
+.background-color {
+  background-color: #3da9fc;
+
+}
+.display-block1 {
+  background-color: #ff8e3c;
+
+}
+
+.display-block2 {
+  background-color: #3da9fc;
+}
+
+.display-inline1 {
+  background-color: #ff8e3c;
+}
+
+.display-inline2 {
+  background-color: #3da9fc;
+}
+
+.display-inline-block1 {
+  display: inline-block;
+  background-color: #ff8e3c;
+}
+
+.display-inline-block2 {
+  display: inline-block;
+  background-color: #3da9fc;
+}
+.display-none {
+  display: none;
+}
+
+.width-block {
+  background-color: #ff8e3c;
+  width: 100px;
+}
+
+.width-parent {
+  width: 100px;
+}
+
+.width-child {
+  background-color: #3da9fc;
+}
+
+.width-parent2,
+.width-parent3 {
+  width: 100px;
+}
+
+.width-child2 {
+  background-color: #3da9fc;
+  width: 100%;
+}
+
+.width-child3 {
+  background-color: #ff8e3c;
+  width: 50%;
+}
+
+.width-parent-none {
+  background-color: #3da9fc;
+  width: 50%;
+}
+
+.height {
+  background-color: #ff8e3c;
+  height: 100px;
+}
+
+.height-inner {
+  background-color: #ff8e3c;
+  width: 100px;
+  height: 100px;
+}
+/* ここから課題 */
+h2 span {
+  color: #3d40fc;
+}
+
+p span {
+  background-color: #3da9fc;
+}
+
+.botton {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color: #ff8e3c;
+}
+.botton p {
+  color: azure;
+}
+/* ここまで課題 */
+.padding-none,
+.padding-top,
+.padding-right,
+.padding-bottom,
+.padding-left  {
+  width: 200px;
+  background-color: #3da9fc;
+
+}
+.padding-top {
+  padding-top: 10px;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+.margin-center {
+  width: 200px;
+  background-color: #ff8e3c;
+  margin: 0 auto;
+
+}
+
+.w-25 {
+  width: 25%;
+  background-color: aqua;
+  text-align: center;
+}
+.left {
+  width: 25%;
+  margin-right: 0 auto;
+}
+
+.right {
+  width: 25%;
+  margin: 0 0 0 auto;
+
+}
+
+.center {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.border-top,
+.border-right,
+.border-bottom,
+.border-left,
+.border {
+  width: 200px;
+}
+.border-top {
+  border-top: 3px solid #3da9fc;
+}
+
+.border-right {
+  border-right: 3px solid #3da9fc;
+}
+
+.border-bottom {
+  border-bottom :3px double #3da9fc;
+}
+
+.border-left {
+  border-left: 3px dotted #3da9fc;
+}
+
+.border {
+  border: 1px solid #3da9fc;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  }
+  .w-100 {
+    font-weight: 100;
+  }
+
+  .w-200 {
+    font-weight: 200;
+  }
+
+  .w-300 {
+    font-weight: 300;
+  }
+
+  .w-400 {
+    font-weight: 400;
+  }
+
+  .w-500 {
+    font-weight: 500;
+  }
+
+  html {
+    
+  }
+  
+  .font-size-px {
+    font-size: 18px;
+  }
+  
+  .font-size-rem {
+    font-size: 1.8rem;
+
+  }
+
+  .item1 {
+    background-color: #ff8e3c;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 100px; */
+    flex: 1 1 auto;
+  }
+
+  .item2 {
+    background-color: #a3cfa7;
+    /* font-size: 2rem; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 200px; */
+    flex: 2 1 auto;
+  }
+
+  .item3 {
+    background-color: #f7dcec;
+    /* font-size: 3rem; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 300px; */
+    flex: 3 1 auto;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 150px;
+    background-color: #fdead9;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    
+  }
+
+  .flex-item {
+    /* width: 50%; */
+    /* width: 500px; */
+  }
