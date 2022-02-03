@@ -1,2 +1,9 @@
-const getNode = document.getElementById("techgeek-header");
-console.log("テックギーク")
+
+window.addEventListener(“load”, function() {
+  const btn = document.getElementById("click-change");
+  console.log(btn);
+  btn.click = `テックギーク`
+  
+
+})
+
