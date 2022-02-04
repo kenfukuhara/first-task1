@@ -3,7 +3,7 @@
 
 window.addEventListener("click",function(){
   const btn = document.getElementById("click-change");
-  btn.innerHTML = `<h1>JavaScriptの勉強</h1>`;
+  btn.innerHTML = `<h1>テックギーク</h1>`;
 });
 
 window.addEventListener("click",function(){
